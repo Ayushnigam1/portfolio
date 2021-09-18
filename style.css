@@ -10,8 +10,18 @@
       scroll-behavior:smooth; 
    
 }
+#loading{
+    width:100%;
+    height:100vh;
+    background:black 
+    url(https://i.pinimg.com/originals/c4/3b/2d/c43b2d56b4ec611ac450e6782f7143b7.gif) no-repeat center;
+    position:fixed;
+    z-index:99999;
+   
+}
 body{
     background:url(bg.jpg) no-repeat center;
+  
 }
 /* html{
     scroll-behavior:smooth;
@@ -145,7 +155,7 @@ display:none;
         0 0 80px magenta,
         0 0 160px magenta;
 
-        transition:all 0.5s ease;
+        transition:all 0.2s ease;
 }
 .github i {
       position:absolute;
@@ -162,7 +172,7 @@ display:none;
     color: white;
      text-shadow:0 0 10px magenta,
         0 0 20px magenta;
-    transition:all 0.5s ease;
+    transition:all 0.2s ease;
 }
 
 
@@ -507,11 +517,11 @@ button{
     color:black;
    display: inline-block;
     background:white;
-   
+   margin-top:15px;
     font-size: 20px;
  overflow: hidden;
     transition: 0.5s;
-    padding: 10px;
+    padding: 8px;
     border-radius: 6px;
     border: 2px solid #03e9f4;
      /* -webkit-box-reflect: below 1px linear-gradient(transparent,#0005); */

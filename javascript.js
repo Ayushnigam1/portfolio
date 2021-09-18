@@ -33,6 +33,22 @@ $(document).ready(function() {
 });
 
 
+
+
+
+
+// loadingjs
+
+var preloader=document.getElementById('loading');
+
+function myFunction() {
+    preloader.style.display='none';
+    
+}
+
+
+
+
 // typing animation script
 var typed=new Typed(".typing",{
     strings:["web developer","Designer","Freelancer"],
@@ -63,4 +79,10 @@ window.scrollBy({
   behavior: 'smooth' 
 });
 
+// 
 
+    AOS.init({
+offset:250,
+duration:800,
+    });
+ 
