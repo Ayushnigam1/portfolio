@@ -306,6 +306,7 @@ section .atitle::before{
 .about .about-content .left figure img{
  justify-content:left;
  /* background-color:black; */
+
  box-shadow:0 8px 6px 6px #eee;
  border-radius:10px;
 }
