@@ -525,7 +525,7 @@ button{
     padding: 8px;
     border-radius: 6px;
     border: 2px solid #03e9f4;
-     /* -webkit-box-reflect: below 1px linear-gradient(transparent,#0005); */
+     /* -webkit-box-reflect: below 2px linear-gradient(transparent,#0005); */
 }
 button:nth-child(1)
 {

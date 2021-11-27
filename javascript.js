@@ -1,32 +1,28 @@
 $(document).ready(function() {
     $(window).scroll(function() {
-        if(this.scrollY>20){
+        if (this.scrollY > 20) {
             $('.navbar').addClass("sticky");
-        }
-        else
-        {
-   $('.navbar').removeClass("sticky");
+        } else {
+            $('.navbar').removeClass("sticky");
         }
 
-         if(this.scrollY > 300){
+        if (this.scrollY > 300) {
             $('.scroll-up-btn').addClass("show");
-        }
-        else
-        {
-  $('.scroll-up-btn').removeClass("show");
+        } else {
+            $('.scroll-up-btn').removeClass("show");
         }
     });
-// slide up 
- $('.scroll-up-btn').click(function() {
-        $('html').animate({scrollTop:0});
-       
+    // slide up 
+    $('.scroll-up-btn').click(function() {
+        $('html').animate({ scrollTop: 0 });
+
     });
     // toggle menu
     $('.menu-btn').click(function() {
         $('.navbar .menu').toggleClass("active");
         $(' .menu-btn i').toggleClass("active");
     })
-     $('.menu').click(function() {
+    $('.menu').click(function() {
         $('.navbar .menu').toggleClass("active");
         $(' .menu-btn i').toggleClass("active");
     })
@@ -39,50 +35,51 @@ $(document).ready(function() {
 
 // loadingjs
 
-var preloader=document.getElementById('loading');
+var preloader = document.getElementById('loading');
 
 function myFunction() {
-    preloader.style.display='none';
-    
+    preloader.style.display = 'none';
+
 }
 
 
 
 
 // typing animation script
-var typed=new Typed(".typing",{
-    strings:["web developer","Designer","Freelancer"],
-    typeSpeed:100,
-    backSpeed:60,
-    loop:true,
+var typed = new Typed(".typing", {
+    strings: ["web developer", "Designer", "Freelancer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true,
 })
-var typed=new Typed(".typing-2",{
-    strings:["React","Javascript","Express","HTML","CSS","Typescript","MongoDb",],
-    typeSpeed:100,
-    backSpeed:60,
-    loop:true,
+
+
+var typed = new Typed(".typing-2", {
+    strings: ["React", "Javascript", "Express", "HTML", "CSS", "Typescript", "MongoDb", "Nodejs"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true,
 })
 
 
 // Scroll to specific values
 // scrollTo is the same
 window.scroll({
-  top: 2500, 
-  left: 0, 
-  behavior: 'smooth'
+    top: 2500,
+    left: 0,
+    behavior: 'smooth'
 });
 
 // Scroll certain amounts from current position 
-window.scrollBy({ 
-  top: 100, // could be negative value
-  left: 0, 
-  behavior: 'smooth' 
+window.scrollBy({
+    top: 100, // could be negative value
+    left: 0,
+    behavior: 'smooth'
 });
 
 // 
 
-    AOS.init({
-offset:250,
-duration:800,
-    });
- 
+AOS.init({
+    offset: 250,
+    duration: 800,
+});
