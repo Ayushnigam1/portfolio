@@ -4,9 +4,9 @@
   "description": "this is a portfolio project",
   "main": "javascript.js",
   "dependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "particles.js": "^2.0.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
