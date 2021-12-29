@@ -33,21 +33,14 @@ $(document).ready(function() {
 
 
 
-// loadingjs
 
-var preloader = document.getElementById('loading');
-
-function myFunction() {
-    preloader.style.display = 'none';
-
-}
 
 
 
 
 // typing animation script
 var typed = new Typed(".typing", {
-    strings: ["web developer", "Designer", "Freelancer"],
+    strings: ["Mern Stack Developer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
