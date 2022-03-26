@@ -47,12 +47,12 @@ var typed = new Typed(".typing", {
 })
 
 
-var typed = new Typed(".typing-2", {
-    strings: ["React", "Javascript", "Express", "HTML", "CSS", "Typescript", "MongoDb", "Nodejs"],
-    typeSpeed: 100,
-    backSpeed: 60,
-    loop: true,
-})
+// var typed = new Typed(".typing-2", {
+//     strings: ["React", "Javascript", "Express", "HTML", "CSS", "Typescript", "MongoDb", "Nodejs"],
+//     typeSpeed: 100,
+//     backSpeed: 60,
+//     loop: true,
+// })
 
 
 // Scroll to specific values
